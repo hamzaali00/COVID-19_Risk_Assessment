@@ -14,3 +14,17 @@ We are also looking to answer the question: How does age group impact the number
 Meetings on Zoom every Tuesday and Thursday, or any day if necessary.
 
 24/7 available communication through Slack.
+
+### Database
+
+Table used for machine learning model: covid_data table
+
+![covid data table](database_images/covid_data.png)
+
+Second table for join function: death_by_state table
+
+![death by state data table](database_images/death_by_state.png)
+
+Joined table: covid_state table
+
+![joined data table](database_images/joined_tables.png)
