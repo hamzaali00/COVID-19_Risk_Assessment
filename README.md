@@ -1,5 +1,7 @@
 [link to google slides presentation](https://docs.google.com/presentation/d/1resQNn_J3zpFqKbY74MHXcx0pu5iFgAxBG7AjOV-3mg/edit?usp=sharing)
 
+[link to tableau visualizations](https://public.tableau.com/app/profile/rose8042/viz/Capstone_Project_16671930307510/COVID-19Deathsgeneral?publish=yes)
+
 # Capstone_Project Presentation
 The topic of our project is COVID-19. We will be looking at COVID-19 deaths, and the conditions that may have contributed to those deaths. We will also be looking at how the deaths are distributed across different age groups.
 
