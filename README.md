@@ -35,3 +35,5 @@ Joined table: covid_state table
 
 ### Dashboard Blueprint
 To create our final dashboard we will be utilizing the free, public version of the software Tableau. This is a data visualization tool that makes it easy to explore and manage data. It also lends itself well to playing around with visualizations to see what will work best with your project.
+
+For the interactive element of our project, we are thinking of using a filtered map, where the viewer can toggle the different health condition groups or health conditions present in our data to see for themselves if one condition or another contributed more to COVID-19 deaths in a particular state.
