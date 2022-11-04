@@ -46,11 +46,6 @@ To create our final dashboard we will be utilizing the free, public version of t
 For the interactive element of our project, we are thinking of using a filtered map, where the viewer can toggle the different health condition groups or health conditions present in our data to see for themselves if one condition or another contributed more to COVID-19 deaths in a particular state.
 
 #### Machine Learning:
-✓ Description of preliminary data
-preprocessing 
-✓ Description of preliminary feature
-engineering and preliminary feature
-selection, including their decision-making
-process 
+What was the preliminary data preprocessing? Feature engineering and preliminary feature selection? (including their decision-making process)
 How was the data split into training and testing sets?
 What is model choice? What are limitations and benefits?
