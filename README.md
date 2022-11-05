@@ -47,10 +47,11 @@ For the interactive element of our project, we are thinking of using a filtered 
 
 
 ### Machine Learning Model
+What was the preliminary data preprocessing? Feature engineering and preliminary feature selection? (including their decision-making process)
 In terms of exploratory data analysis, many columns of the original dataset did not appear to be useful for the random forest model. Specifically, columns relating to time, including Date As of, Start Date, end Date, Year, and Month, were dropped. Additionally, columns which were unclear or inconsistent including Group, ICD10_codes, Flag and Number of Mentions were dropped. Further exploratory data analysis included the creation of features which did not exist previously. Age was anticipated to be an important factor, so a new table was created which includes the number of instances of each age group per state. 
-
+How was the data split into training and testing sets?
 For preprocessing for the machine learning model, the target variable was dropped from the table. Train_test_split from the sklearn library was used in order to split the data into training and test set. The random_state of 1 was used consistently in both the splitting of training and test, and the resampling of the training data. 
-
+What is model choice? What are limitations and benefits?
 The BalancedRandomForestClassifier method from the Scikit-learn library was chosen for the learning model. The Random Forest model was chosen because it offers a good balance between accuracy and interpretability. Compared to other machine learning models with a similar degree of accuracy, like Deep Learning, Random Forest models offer improved interpretability. Having many trees can also prevent against overfitting. One disadvantage of the random forest model is that it operates better with discrete data, so continuous features may have to be broken up so that the model can function, as was done by binning the target variable during feature selection.  
 
 Using number of deaths, 5 bins were created to indicate risk categories. The categories included the following:
@@ -59,3 +60,4 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 101-500 deaths = Medium risk
 - 501-1,500 deaths = High risk
 - 1501-280,000 = Highesk risk 
+
