@@ -59,3 +59,6 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 501-1,500 deaths = High risk
 - 1501-280,000 = Highesk risk 
 
+#### Current Accuracy Score
+71.5% balanced accuracy score using complete dataset
+
