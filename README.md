@@ -20,12 +20,6 @@ The primary question we are looking to answer with this dataset is:
 Irrespective of the variations in available data, stakeholders (policy makers) have to make critical decisions resulting in meaningful implications for both COVID-19 transmission and mortality. These analytics can be a game changer in predictive models evaluating a plethora of “what if” scenarios to guide decision-making.
 
 
-### Communication Protocol
-
-Meetings on Zoom every Tuesday and Thursday, or any day if necessary.
-
-24/7 available communication through Slack.
-
 ### Database
 
 Table used for machine learning model: covid_data table
