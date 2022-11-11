@@ -49,7 +49,7 @@ For preprocessing for the machine learning model, the target variable was droppe
 
 The train_test_split function was used to randomly split the data into training and testing sets. In our case, a sample dataframe was created using 50% of the original dataset. Of this 50%, 75% of the data was used for training and 25% was used for testing.
 
-When the random forest model was rerun using the full dataset, the data was similarly split, with 75% of the data used for training and 25% used for testing. The train_test_split function was used, which allows for data to be randomly split into training and testing sets.
+When the random forest model was rerun using the full dataset, the data was similarly split, with 75% of the data used for training and 25% used for testing. The train_test_split function was used, which allows for data to be randomly split into training and testing sets. Using the same split between training and test sets ensures that consistency of the results. 
 
 
 #### What is model choice? What are limitations and benefits?
@@ -63,7 +63,4 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 1501-280,000 = Highesk risk 
 
 #### Current Accuracy Score
-71.5% balanced accuracy score using complete dataset.
-
-High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
-
+71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
