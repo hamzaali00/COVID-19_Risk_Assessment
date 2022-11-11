@@ -28,7 +28,7 @@ Table used for machine learning model: covid_data table
 
 Second table for join function: death_by_state table
 
-![death by state data table](database_images/death_by_state.png)
+![death by state data table](database_images/state.png)
 
 Joined table: covid_state table
 
