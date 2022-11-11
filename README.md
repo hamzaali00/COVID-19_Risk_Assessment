@@ -24,7 +24,7 @@ Irrespective of the variations in available data, stakeholders (policy makers) h
 
 Table used for machine learning model: covid_data table
 
-![covid data table](database_images/covid_data.png)
+![covid data table](database_images/covid.png)
 
 Second table for join function: death_by_state table
 
@@ -32,7 +32,7 @@ Second table for join function: death_by_state table
 
 Joined table: covid_state table
 
-![joined data table](database_images/joined_tables.png)
+![joined data table](database_images/join.png)
 
 ### Dashboard Blueprint
 To create our final dashboard we will be utilizing the free, public version of the software Tableau. This is a data visualization tool that makes it easy to explore and manage data. It also lends itself well to playing around with visualizations to see what will work best with your project.
@@ -49,6 +49,9 @@ For preprocessing for the machine learning model, the target variable was droppe
 
 The train_test_split function was used to randomly split the data into training and testing sets. In our case, a sample dataframe was created using 50% of the original dataset. Of this 50%, 75% of the data was used for training and 25% was used for testing.
 
+When the random forest model was rerun using the full dataset, the data was similarly split, with 75% of the data used for training and 25% used for testing. The train_test_split function was used, which allows for data to be randomly split into training and testing sets.
+
+
 #### What is model choice? What are limitations and benefits?
 The BalancedRandomForestClassifier method from the Scikit-learn library was chosen for the learning model. The Random Forest model was chosen because it offers a good balance between accuracy and interpretability. Compared to other machine learning models with a similar degree of accuracy, like Deep Learning, Random Forest models offer improved interpretability. Having many trees can also prevent against overfitting. One disadvantage of the random forest model is that it operates better with discrete data, so continuous features may have to be broken up so that the model can function, as was done by binning the target variable during feature selection.  
 
@@ -60,5 +63,7 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 1501-280,000 = Highesk risk 
 
 #### Current Accuracy Score
-71.5% balanced accuracy score using complete dataset
+71.5% balanced accuracy score using complete dataset.
+
+High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
 
