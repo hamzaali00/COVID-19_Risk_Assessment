@@ -49,7 +49,7 @@ For preprocessing for the machine learning model, the target variable was droppe
 
 The train_test_split function was used to randomly split the data into training and testing sets. In our case, a sample dataframe was created using 50% of the original dataset. Of this 50%, 75% of the data was used for training and 25% was used for testing.
 
-When the random forest model was rerun using the full dataset, the data was similarly split, with 75% of the data used for training and 25% used for testing. The train_test_split function was used, which allows for data to be randomly split into training and testing sets.
+When the random forest model was rerun using the full dataset, the data was similarly split, with 75% of the data used for training and 25% used for testing. The train_test_split function was used, which allows for data to be randomly split into training and testing sets. Using the same split between training and test sets ensures that consistency of the results. 
 
 
 #### What is model choice? What are limitations and benefits?
