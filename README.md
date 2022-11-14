@@ -62,13 +62,5 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 #### Current Accuracy Score
 71.5% balanced accuracy score using complete dataset
 
-#### Confusion Matrix
 
-![Confusion Matrix](Complete_MLM_images/readable_confusion_matrix.png)
-
-- 358 of 577 or 62.04% of "Highest Risk" cases were predicted correctly
-- 517 of 1064 or 48.59% of "High Risk" cases were predicted correctly
-- 2363 of 4151 or 56.93% of "Medium Risk" cases were predicted correctly
-- 16123 of 17902 or 90.06% of "Low Risk" cases were predicted correctly
-- 100% of "No Risk" cases were predicted correctly
 
