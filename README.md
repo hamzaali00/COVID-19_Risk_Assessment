@@ -13,4 +13,4 @@ We are also looking to answer the question: How does age group impact the number
 
 Meetings on Zoom every Tuesday and Thursday, or any day if necessary.
 
-24/7 available communication through Slack.
+24/7 available communication via Slack.
