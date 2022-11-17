@@ -35,9 +35,9 @@ Joined table: covid_state table
 ![joined data table](database_images/join.png)
 
 ### Dashboard Blueprint
-To create our final dashboard we will be utilizing the free, public version of the software Tableau. This is a data visualization tool that makes it easy to explore and manage data. It also lends itself well to playing around with visualizations to see what will work best with your project.
+To create our final dashboard we will be utilizing the public version of the software Tableau. This is a data visualization tool that makes it easy to explore and manage data. It also lends itself well to playing around with visualizations to see what will work best with your project.
 
-For the interactive element of our project, we are thinking of using a filtered map, where the viewer can toggle the different health condition groups or health conditions present in our data to see for themselves if one condition or another contributed more to COVID-19 deaths in a particular state.
+For the interactive element of our project, we are planning to use a filtered map, where the viewer can toggle the different health condition groups or health conditions present in our data to see for themselves if one condition or another contributed more to COVID-19 deaths in a particular state.
 
 
 ### Machine Learning Model
@@ -53,7 +53,7 @@ When the random forest model was rerun using the full dataset, the data was simi
 
 
 #### What is model choice? What are limitations and benefits?
-The BalancedRandomForestClassifier method from the Scikit-learn library was chosen for the learning model. The Random Forest model was chosen because it offers a good balance between accuracy and interpretability. Compared to other machine learning models with a similar degree of accuracy, like Deep Learning, Random Forest models offer improved interpretability. Having many trees can also prevent against overfitting. One disadvantage of the random forest model is that it operates better with discrete data, so continuous features may have to be broken up so that the model can function, as was done by binning the target variable during feature selection.  
+The BalancedRandomForestClassifier method from the Scikit-learn library was chosen for the learning model. The Random Forest model was chosen because it offers a good balance between accuracy and interpretability. Compared to other machine learning models with a similar degree of accuracy, like Deep Learning, the Random Forest model offers improved interpretability. Having many trees can also prevent against overfitting. One disadvantage of the random forest model is that it operates better with discrete data, so continuous features may have to be broken up so that the model can function, as was done by binning the target variable during feature selection.  
 
 Using number of deaths, 5 bins were created to indicate risk categories. The categories included the following:
 - 0 deaths = No risk
@@ -63,7 +63,7 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 1501-280,000 = Highesk risk 
 
 #### Current Accuracy Score
-71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
+71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
 
 #### Confusion Matrix
 
