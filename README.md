@@ -63,6 +63,14 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 1501-280,000 = Highesk risk 
 
 #### Current Accuracy Score
-71.5% balanced accuracy score using complete dataset.
+71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
 
-High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
+#### Confusion Matrix
+
+![Confusion Matrix](Complete_MLM_images/readable_confusion_matrix.png)
+
+- 358 of 577 or 62.04% of "Highest Risk" cases were predicted correctly
+- 517 of 1,064 or 48.59% of "High Risk" cases were predicted correctly
+- 2363 of 4,151 or 56.93% of "Medium Risk" cases were predicted correctly
+- 16123 of 17,902 or 90.06% of "Low Risk" cases were predicted correctly
+- 100% of "No Risk" cases were predicted correctly
