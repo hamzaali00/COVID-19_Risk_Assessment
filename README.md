@@ -9,7 +9,7 @@ There are several reasons we selected this topic. Wide base of knowledge in COVI
 
 Our data comes from the Center for Disease Control, at data.cdc.gov, where many different datasets covering a variety of topics is available. Our dataset contains 14 columns and 472,000 rows. 
 
-The primary question we are looking to answer with this dataset is: 
+Some questions we are looking to answer with this dataset is: 
 #### How did various health conditions contribute to COVID-19 Deaths?
 #### How did age contribute to COVID-19 Deaths?
 #### How did location contribute to COVID-19 Deaths?
