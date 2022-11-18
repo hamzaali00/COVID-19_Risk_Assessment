@@ -63,8 +63,7 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 1501-280,000 = Highesk risk 
 
 #### Current Accuracy Score
-71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
-
+71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group. 
 #### Confusion Matrix
 
 ![Confusion Matrix](Complete_MLM_images/readable_confusion_matrix.png)
