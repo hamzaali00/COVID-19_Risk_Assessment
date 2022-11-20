@@ -1,6 +1,6 @@
-[link to google slides presentation](https://docs.google.com/presentation/d/1resQNn_J3zpFqKbY74MHXcx0pu5iFgAxBG7AjOV-3mg/edit?usp=sharing)
+[google slides presentation](https://docs.google.com/presentation/d/1resQNn_J3zpFqKbY74MHXcx0pu5iFgAxBG7AjOV-3mg/edit?usp=sharing)
 
-[link to tableau dashboard](https://public.tableau.com/app/profile/rose8042/viz/Capstone_Project_16671930307510/COVID-19Deathsgeneral?publish=yes)
+[tableau dashboard](https://public.tableau.com/app/profile/rose8042/viz/Capstone_Project_16671930307510/COVID-19Deathsgeneral?publish=yes)
 
 # Capstone_Project Presentation
 The topic of our project is COVID-19. While observing COVID-19 mortality rates we will be taking a deeper dive as to the causes of these deaths (age, co-morbidities,etc.) and the conditions that may have contributed to those deaths. We will also be looking at how the deaths are distributed across different age groups.
@@ -9,7 +9,7 @@ There are several reasons we selected this topic. Wide base of knowledge in COVI
 
 Our data comes from the Center for Disease Control, at data.cdc.gov, where many different datasets covering a variety of topics is available. Our dataset contains 14 columns and 472,000 rows. 
 
-The primary question we are looking to answer with this dataset is: 
+Some questions we are looking to answer with this dataset is: 
 #### How did various health conditions contribute to COVID-19 Deaths?
 #### How did age contribute to COVID-19 Deaths?
 #### How did location contribute to COVID-19 Deaths?
@@ -35,9 +35,9 @@ Joined table: covid_state table
 ![joined data table](database_images/join.png)
 
 ### Dashboard Blueprint
-To create our final dashboard we will be utilizing the free, public version of the software Tableau. This is a data visualization tool that makes it easy to explore and manage data. It also lends itself well to playing around with visualizations to see what will work best with your project.
+To create our final dashboard we will be utilizing the public version of the software Tableau. This is a data visualization tool that makes it easy to explore and manage data. It also lends itself well to playing around with visualizations to see what will work best with your project.
 
-For the interactive element of our project, we are thinking of using a filtered map, where the viewer can toggle the different health condition groups or health conditions present in our data to see for themselves if one condition or another contributed more to COVID-19 deaths in a particular state.
+For the interactive element of our project, we are planning to use a filtered map, where the viewer can toggle the different health condition groups or health conditions present in our data to see for themselves if one condition or another contributed more to COVID-19 deaths in a particular state.
 
 
 ### Machine Learning Model
@@ -53,7 +53,7 @@ When the random forest model was rerun using the full dataset, the data was simi
 
 
 #### What is model choice? What are limitations and benefits?
-The BalancedRandomForestClassifier method from the Scikit-learn library was chosen for the learning model. The Random Forest model was chosen because it offers a good balance between accuracy and interpretability. Compared to other machine learning models with a similar degree of accuracy, like Deep Learning, Random Forest models offer improved interpretability. Having many trees can also prevent against overfitting. One disadvantage of the random forest model is that it operates better with discrete data, so continuous features may have to be broken up so that the model can function, as was done by binning the target variable during feature selection.  
+The BalancedRandomForestClassifier method from the Scikit-learn library was chosen for the learning model. The Random Forest model was chosen because it offers a good balance between accuracy and interpretability. Compared to other machine learning models with a similar degree of accuracy, like Deep Learning, the Random Forest model offers improved interpretability. Having many trees can also prevent against overfitting. One disadvantage of the random forest model is that it operates better with discrete data, so continuous features may have to be broken up so that the model can function, as was done by binning the target variable during feature selection.  
 
 Using number of deaths, 5 bins were created to indicate risk categories. The categories included the following:
 - 0 deaths = No risk
@@ -63,8 +63,7 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 - 1501-280,000 = Highesk risk 
 
 #### Current Accuracy Score
-71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group.
-
+71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group. 
 #### Confusion Matrix
 
 ![Confusion Matrix](Complete_MLM_images/readable_confusion_matrix.png)
