@@ -24,15 +24,15 @@ Irrespective of the variations in available data, stakeholders (policy makers) h
 
 Table used for machine learning model: covid_data table
 
-![covid data table](database_images/covid.png)
+![covid data table](Database/database_images/covid.png)
 
 Second table for join function: death_by_state table
 
-![death by state data table](database_images/state.png)
+![death by state data table](Database/database_images/state.png)
 
 Joined table: covid_state table
 
-![joined data table](database_images/join.png)
+![joined data table](Database/database_images/join.png)
 
 ### Dashboard Blueprint
 To create our final dashboard we will be utilizing the public version of the software Tableau. This is a data visualization tool that makes it easy to explore and manage data. It also lends itself well to playing around with visualizations to see what will work best with your project.
@@ -66,7 +66,7 @@ Using number of deaths, 5 bins were created to indicate risk categories. The cat
 71.5% balanced accuracy score using complete dataset. High precision corresponds to a low rate of false positives, while high recall corresponds to a low rate of false negatives. Striking a balance between precision and recall is trade-off which can prioritize and highlight different aspects of a model's effectiveness. The precision score for the whole dataset was .12 for the highest risk group, .88 for the medium risk group, and .99 for the low risk group. The recall for the whole dataset was .62 for the highest risk group, .57 for the medium risk group, and .90 for the low risk group. 
 #### Confusion Matrix
 
-![Confusion Matrix](Complete_MLM_images/readable_confusion_matrix.png)
+![Confusion Matrix](Machine_Learning/Complete_MLM_images/readable_confusion_matrix.png)
 
 - 358 of 577 or 62.04% of "Highest Risk" cases were predicted correctly
 - 517 of 1,064 or 48.59% of "High Risk" cases were predicted correctly
