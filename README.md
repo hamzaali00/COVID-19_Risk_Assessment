@@ -2,7 +2,7 @@
 
 [tableau dashboard](https://public.tableau.com/app/profile/rose8042/viz/Capstone_Project_16671930307510/COVID-19Deathsgeneral?publish=yes)
 
-# Capstone_Project Presentation
+# COVID-19 Risk Assessment Presentation
 The topic of our project is COVID-19. While observing COVID-19 mortality rates we will be taking a deeper dive as to the causes of these deaths (age, co-morbidities,etc.) and the conditions that may have contributed to those deaths. We will also be looking at how the deaths are distributed across different age groups.
 
 There are several reasons we selected this topic. Wide base of knowledge in COVID-19 data, broad perspectives, dynamic, varying yet reliable, plethora of data soruces.
